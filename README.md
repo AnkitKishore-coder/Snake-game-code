@@ -3,12 +3,12 @@ import pygame
  
 pygame.init()
  
-white = (255, 255, 255)
-black = (0, 0, 0)
-red = (255, 0, 0)
+yellow = (255, 255, 255)
+red = (0, 0, 0)
+blue = (255, 0, 0)
  
-dis = pygame.display.set_mode((800, 600))
-pygame.display.set_caption('Snake Game by Edureka')
+dis = pygame.display.set_mode((1000, 800))
+pygame.display.set_caption('Snake Game')
  
 game_over = False
  
